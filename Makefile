@@ -1,3 +1,0 @@
-
-repl:
-	lein gorilla
