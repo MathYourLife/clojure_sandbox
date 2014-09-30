@@ -12,3 +12,16 @@ bash ../run.sh
 (load-file "src/hello/core.clj")
 (hello.core/say-hi "aoeu")
 ```
+
+## compile
+
+```
+lein compile
+lein uberjar
+```
+
+## run
+
+```bash
+java -jar target/hello-0.1.0-SNAPSHOT-standalone.jar something
+```

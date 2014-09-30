@@ -1,4 +1,5 @@
-(ns hello.core)
+(ns hello.core
+    (:gen-class))
 
 (defn say-hi
     [to]
